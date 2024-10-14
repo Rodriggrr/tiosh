@@ -3,6 +3,7 @@
   "displayName": ".tio",
   "description": "Test In and Out (TIO) Syntax Highlighting",
   "version": "0.0.1",
+  "repository": "https://github.com/Rodriggrr/tiosh",
   "engines": {
     "vscode": "^1.94.0"
   },
