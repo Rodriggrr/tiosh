@@ -1,0 +1,49 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Test In and Out",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#delimiters"
+		},
+		{
+			"include": "#testName"
+		},
+		{
+			"include": "#io"
+		},
+		{
+			"include": "#strings"
+		}
+	],
+	"repository": {
+		"delimiters": {
+			"patterns": [
+				{
+					"name": "keyword.control",  
+					"match": "(>>>>>>>>|========|<<<<<<<<)"
+				}
+			]
+		},
+		"keywords": {
+			"patterns": [
+				{
+					"name": "storage.type.tio",  
+					"match": "(INSERT|EXPECT|FINISH)"
+				}
+			]
+		},
+		"testName": {
+			"patterns": [
+				{
+					"name": "entity.name.function.tio",  
+					"match": "(?<=INSERT\\s)[^\\n]+"
+				}
+			]
+		}
+	},
+	
+	"scopeName": "source.tio"
+}
