@@ -5,6 +5,7 @@
   "version": "0.0.1",
   "repository": "https://github.com/Rodriggrr/tiosh",
   "icon": "icon.jpeg",
+  "publisher": "RodrigoFarinon",
   "engines": {
     "vscode": "^1.94.0"
   },
