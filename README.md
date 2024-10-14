@@ -1,6 +1,6 @@
 # Test In and Out (TIO) Syntax Highlighting
 
-![image](https://github.com/Rodriggrr/tiosh/blob/aa8bb9908f9829faf1a23b1e53b3a3609a14f93c/example.png)
+![image](https://github.com/Rodriggrr/tiosh/blob/main/example.png?raw=true)
 
 ## Description
 
